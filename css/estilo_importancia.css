@@ -1,0 +1,85 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(../images/vegetac.jpg);
+}
+
+.encabezado {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #4bc082c2;
+  margin: 0 auto 40px auto;
+  border-radius: 15px;
+
+}
+
+
+.contenido-principal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.85);
+  max-width: 1200px;
+  margin: 0 auto 40px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.texto-principal {
+  flex: 1 1 60%;
+  color: #333;
+}
+
+.texto-principal h2 {
+  color: #2c7a50;
+  margin-bottom: 15px;
+}
+
+.texto-principal h3 {
+  color: #3a9b6f;
+  margin-top: 25px;
+}
+
+.texto-principal p,
+.texto-principal ul {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.texto-principal ul {
+  list-style: inside disc;
+  color: #444;
+}
+
+.imagen-lateral {
+  flex: 1 1 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen-lateral img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.navegacion-secundaria {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.boton-volver {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 12px 24px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.boton-volver:hover {
+  color: white;
+  background-color: #22633c;
+}

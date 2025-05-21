@@ -1,0 +1,88 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(../images/natura.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+.encabezado {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #4bc082c2;
+  margin: 0 auto 40px auto;
+  border-radius: 15px;
+  max-width: 1200px;
+  position: relative;
+}
+
+.boton-volver-encabezado {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 12px 24px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.boton-volver-encabezado:hover {
+  color: white;
+  background-color: #22633c;
+}
+
+.contenido-principal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.85);
+  max-width: 1200px;
+  margin: 0 auto 40px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+article {
+  flex: 1 1 60%;
+  color: #333;
+}
+
+article h2 {
+  color: #2f7a4f;
+  margin-bottom: 15px;
+}
+
+article p,
+article ul {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+article ul {
+  list-style: inside disc;
+  color: #444;
+}
+
+.imagen-lateral {
+  flex: 1 1 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen-lateral img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+figcaption {
+  margin-top: 8px;
+  font-style: italic;
+  color: #555;
+  text-align: center;
+}

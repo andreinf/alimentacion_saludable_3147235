@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('../images/fondo-jungla.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #333;
+}
+
+.encabezado {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.encabezado h1 {
+  font-size: 2.5em;
+  color: #2c7a50;
+}
+
+.encabezado p {
+  font-size: 1.2em;
+  color: #444;
+  margin-top: 10px;
+}
+
+.contenedor-principal {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.pagina {
+  text-align: center;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+
+.pagina img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.pagina h2 {
+  margin: 15px 0;
+  font-size: 1.3em;
+  color: #2c7a50;
+}
+
+.pie {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 0.9em;
+  color: #666;
+}
+
+.introduccion {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px 25px;
+  background-color: #e3f1e7;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  color: #2f6f4e;
+  text-align: center;
+}
+
+.introduccion h2 {
+  font-size: 1.9rem;
+  margin-bottom: 15px;
+}
+
+.introduccion p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
