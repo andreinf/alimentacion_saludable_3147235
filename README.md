@@ -26,7 +26,7 @@ images/: Carpeta que contiene todas las imagenes utilizadas en la web
 
 # Aprendizaje
 
-- Estructura de los archivos y paginas para organizar los archivos en carpetas (HTML, CSS, imágenes).
+- Estructura de los archivos y paginas organizada en carpetas (HTML, CSS, imágenes).
 
 - Usar etiquetas semánticas para estructurar el contenido de forma clara y accesible.
 
